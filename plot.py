@@ -161,9 +161,8 @@ def maxKColoring(saveFig):
         plt.figure()
         plt.title(title)
         plt.bar(x, [dataSuccess[a].count(True) for a in x])
-        print([dataSuccess[a].count(True) for a in x])
         # plt.legend()
-        plt.xlabel("Number of Colors")
+        plt.xlabel("Optimization Algorithm")
         plt.ylabel('Percent of Successful Colorings (%)')
 
         if saveFig:
