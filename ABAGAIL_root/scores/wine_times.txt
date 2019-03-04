@@ -1,0 +1,3 @@
+RHC Training time: 16.336
+SA Training time: 16.208
+GA Training time: 853.626
